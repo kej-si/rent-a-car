@@ -1,0 +1,101 @@
+body {
+    background-color: #fff;
+    font-family: 'Lora', serif;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name {
+    margin-top: 20px;
+    font-size: 3rem;
+    font-family: 'Karla', serif;
+    color: #292d33;
+}
+
+.name2 {
+    font-size: 2rem;
+    font-family: 'Karla', serif;
+    color: #292d33;
+    margin-top: 10px;
+}
+
+.quote {
+    font-family: 'Karla', serif;
+    color: #292d33;
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+.des {
+    font-family: 'Karla', serif;
+    color: #292d33;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-weight:bold;
+}
+
+.product-short-des {
+    color: #292d33;
+    margin: 30px;
+    font-size: 1.2rem;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    color: #292d33;
+    font-size: 1.2rem;
+}
+
+input {
+    border-color: #292d33;
+    border-radius: 2px;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    color: #292d33;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 20px;
+}
+
+.rent-btn2 {
+    display: block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ea7441;
+    color: #fff;
+    cursor: pointer;
+    line-height: 1rem;
+    font-size: 20px;
+}
+
+.cancel-btn {
+    display: block;
+    padding: 10px 30px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ea7441;
+    color: #fff;
+    cursor: pointer;
+    line-height: 1rem;
+    font-size: 20px;
+}
+
+.rent-btn2:hover {
+    background-color: #ff6d2f;
+}
+
+.cancel-btn:hover {
+    background-color: #ff6d2f;
+}

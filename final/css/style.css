@@ -1,0 +1,419 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Lora', serif;
+}
+
+/* the background color of navbar */
+#nav_bar {
+  background-color: #292d33;
+  padding: 1.5rem;
+}
+
+/* the rest of the navbar styling */
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  margin-top: 0.65rem;
+}
+
+li {
+  margin-left: 1rem;
+}
+
+nav a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-weight: bold;
+}
+
+nav a.active {
+  background-color: #ea7441;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  color: white;
+}
+
+/* the logo style "CarRental" */
+/* positioning */
+#emri {
+  float: left;
+}
+
+/* the font style */
+#emrih {
+  color: #fff;
+  font-size: 2rem;
+}
+
+/* this is the container after the navbar */
+.firstcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem 2rem 2rem;
+  margin-bottom: 2rem;
+  background-color: #555c66;
+}
+
+/* this is the code for the quote */
+.quotecontainer {
+  flex: 1;
+  padding: 1rem;
+  align-self: flex-start;
+}
+
+/* this is the img */
+.imagecontainer {
+  flex: 1;
+  padding: 1rem;
+  align-self: flex-end;
+  width: 100%;
+}
+
+/* the styling of the first section quote */
+#quote {
+  font-family: 'Work Sans Semi Bold';
+  color: #fff;
+  font-size: 5.5rem;
+}
+
+#q2 {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+/* this is the what do we offer section the acronym wdwo is used */
+.wdwo {
+  text-align: center;
+  font-family: 'Karla', serif;
+  color: #292d33;
+  font-size: 4rem;
+}
+
+/* this is the styling regarding the three columns */
+.three-column {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+/* the styling for each column */
+.colums {
+  color: #292d33;
+  margin: 10px;
+  max-width: 300px;
+}
+
+/* adjusting the image size */
+.img-wdwo1 {
+  width: 7rem;
+  height: 7rem;
+}
+
+/* adjusting the position */
+.img-wdwo {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+/* styling the headers of the three columns */
+.h3-wdwo {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  margin: 0.2rem;
+}
+
+/* styling the paragraph */
+.p-wdwo {
+  padding-top: 1rem;
+  margin: 0.2rem;
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+}
+
+/* the styling here is about the product */
+.products {
+  background-color: #555c66;
+}
+
+/* the header at the beginning of the section */
+.oproducts {
+  text-align: center;
+  font-family: 'Karla', serif;
+  padding-top: 1rem;
+  color: #fff;
+  font-size: 4rem;
+}
+
+/* the styling for each column */
+.colums-op {
+  color: #fff;
+  max-width: 350px;
+  --c: #ea7441;
+  /* the border color */
+  --b: 10px;
+  /* the border thickness*/
+  --g: 5px;
+  /* the gap on hover */
+
+  padding: calc(var(--g) + var(--b));
+  --_g: #0000 25%, var(--c) 0;
+  background:
+    conic-gradient(at bottom var(--b) left var(--b), var(--_g)) 0 var(--_i, 200%)/var(--_i, var(--b)) 200% no-repeat;
+  transition: .3s, background-position .3s .3s;
+  cursor: pointer;
+}
+
+.colums-op:hover {
+  --_i: 100%;
+  transition: .3s, background-size .3s .3s;
+}
+
+/* adjusting the position */
+.img-op {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+/* styling the headers of the three columns */
+.h3-op {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  margin: 0.2rem;
+}
+
+/* styling the paragraph */
+.p-op {
+  padding-top: 1rem;
+  margin: 0.2rem;
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.size {
+  width: 350px;
+  height: 200px;
+}
+
+/* this is the styling for the link part */
+.link-op {
+  text-decoration: none;
+}
+
+/* this part is the styling of the reviews part */
+.reviews {
+  background-color: #fff;
+}
+
+/* the heading at the beginning of the new section */
+.ocr {
+  text-align: center;
+  font-family: 'Karla', serif;
+  color: #292d33;
+  font-size: 4rem;
+  padding-top: 1rem;
+}
+
+/* the reviews are each in a column */
+.column-ocr {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+/* the styling for each column and the text*/
+.colum-ocr {
+  color: #fff;
+  margin: 10px;
+  max-width: 300px;
+  line-height: 2rem;
+  font-size: 0.9rem;
+  background-color: #555c66;
+  border-radius: 2rem;
+}
+
+/* adding some margin to the text */
+.p-ocr {
+  margin: 1rem;
+}
+
+/* the code below is about the stars at the review section. */
+.star {
+  color: #ea7441;
+  margin: 1rem;
+}
+
+/* the style for the footer */
+footer {
+  background-color: #292d33;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-column {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.footer-column a {
+  font-family: 'Karla', serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+
+.footer-column p {
+  font-family: 'Karla', serif;
+  line-height: 1.4rem;
+  font-size: 17px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10px;
+  text-decoration: none;
+  font-family: 'Karla', serif;
+  line-height: 2rem;
+  font-size: 18px;
+}
+
+.social-icons a:hover {
+  color: #ea7441;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.footer-logo {
+  text-decoration: none;
+  color: #ea7441;
+}
+
+/* the css for the rent a car page */
+
+/* Product Rows */
+.product-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.h2-rent {
+  text-align: center;
+  margin: 20px 0;
+  text-align: center;
+  font-family: 'Karla', serif;
+  color: #292d33;
+  font-size: 3rem;
+}
+
+.product-box {
+  width: 350px;
+  margin: 30px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.product-box img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.h3-rent {
+  margin: 20px 0;
+  color: #292d33;
+  margin-right: 10px;
+  text-decoration: none;
+  line-height: 1.5rem;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.rent-btn {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ea7441;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Karla', serif;
+  line-height: 1.5rem;
+  font-size: 19px;
+}
+
+.rent-btn:hover {
+  background-color: #ff6d2f;
+}
+
+
+/* .h2-pr {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Work Sans Semi Bold';
+  color: #292d33;
+  font-size: 2rem;
+} */
+
+
+.product-container {
+  padding: 0 10vw;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.product-card {
+  flex: 0 0 auto;
+  width: 350px;
+  margin: 30px 30px 30px 0px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-brand {
+  color: #292d33;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.pn-size {
+  width: 50px;
+  height: 50px;
+}
