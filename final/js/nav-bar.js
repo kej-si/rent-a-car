@@ -20,7 +20,7 @@ li tag we used the a tag so that the page is loaded when the user clicks it-->
       based on what page the user is-->
       <li><a href="rentacar.html">Rent a Car</a></li> <!--the rent a car page -->
       <li><a href="aboutus.html">About us</a></li>  <!--the aboutus page -->
-      <li><a href="mycart.html">My Cart</a></li>   <!--the my cart page -->
+      <li><a href="myreservations.html">My Reservations</a></li>   <!--the my cart page -->
       <li><a href="login.html" class="login">Login</a></li>   <!--the login page -->
     </ul>
     </nav>
