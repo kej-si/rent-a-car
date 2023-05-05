@@ -1,26 +1,32 @@
-const createFooter = () => {
-    let footer = document.querySelector('footer');
+// here is created a function called createFooter which creates the footer bar 
+//the reason for this is so that the footer to be inserted dynamically into the page using js
 
-    footer.innerHTML = `
-    <footer>
-  <div class="footer-container">
-    <div class="footer-column">
+const createFooter = () => {
+  let footer = document.querySelector('footer');
+
+  footer.innerHTML = `
+    <footer>   <!-- the footer tag    -->
+  <div class="footer-container">  <!-- the main div to be divided into 4 equal parts  -->
+    <div class="footer-column">   <!-- the first div here we added the name of the brand clickable to send u to the top of the page-->
     <a href="index.html"><h3 class="footer-logo"> WheelDeal Rentals </h3></a>
     </div>
-  <div class="footer-column">
+  <div class="footer-column">  <!--  this is the  second div where we added the physical addresses of the shop the tags used were h3 and p  -->
       <h3>Addresses</h3>
         <p>Mother Tereza Airport</p>
         <p>Tirana,Albania</p>
         <p>Newborn Stadium</p>
         <p>Prishtina, Kosova</p>
-
-      </ul>
     </div>
+
+<!-- this is the third div with our contact information if the users want further assistance-->
   <div class="footer-column">
       <h3>Contact</h3>
         <p>Email: info@wheeldeal.com</p>
         <p>Phone: (355) 694490198</p>
+        <p>Technical support: (355) 694490198</p>
     </div>
+
+<!-- this is the fourth div with our social medias each sends u to our social media page-->
     <div class="footer-column">
       <h3>Connect with Us</h3>
       <div class="social-icons">
