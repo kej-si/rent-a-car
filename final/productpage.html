@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Renting Product Display</title>
+  <!-- adding the css style file and the font style-->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/productpagestyle.css">
+  <link rel="stylesheet" href="css/responsivenes.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="navbar"></nav> <!-- This line creates a navigation bar with the class name "navbar". -->
+  <script src="js/nav-barrc.js"></script> <!-- this includes the js file that has the code for the navbar-->
+  
+  
+  <main>
+    <div class="main-wrapper"> <!--this is the main div that wraps the content and displays it in the center  -->
+      <h2 class="name">Volkswagen Golf</h2><br><br> <!-- the name of the car that the user wants to rent -->
+      <h2 class="name2">Rental Details</h2> <!-- this here includes the rental details such as the start date the end date -->
+
+      <form action="rental.php" method="post"> <!-- the form here is so that the user enters the dates when he wants to rent the car-->
+        <label for="start-date">Start Date:</label> <!-- this is the start date -->
+        <input type="date" id="start-date" name="start-date" required> <!-- this is the calendar that the user will be prompted with to pick the date -->
+        <br><br><label for="end-date">End Date:</label> <!-- this is the end date  -->
+        <input type="date" id="end-date" name="end-date" required> <!-- this is the calendar that the user will be prompted with to pick the date -->
+        <br><br><label for="end-date">Price:</label> <!-- this is the calculated final price -->
+        <div class="buttons"> <!-- this is the div of the buttons -->
+          <button type="submit" class="rent-btn2">Rent Now</button> <!-- the rent button adds the car to the cart of the user -->
+          <button type="button" class="cancel-btn">Cancel</button> <!-- the cancel btn cancels the user renting -->
+        </div>
+      </form>
+    </div>
+    </section>
+
+    <!-- this is a short description about the car -->
+    <p class="des">Description</p>
+    <p class="product-short-des">Better steering, better refinement, better safety, more modern lighting. All of them
+      steps ahead from a car that already pretty much led the class. Get yourself a 148bhp TSi with the multi-link axle
+      and you’re laughing.
+      Oh and by the way, for the next few years, VW doesn’t even see Golf sales falling away. Early orders suggest ID.3
+      buyers will come from other places, while yesterday’s Golf buyers stick to today’s Golf. They won’t go far wrong.
+    </p>
+
+  </main>
+  <footer></footer> <!-- This line creates the footer -->
+  <script src="js/footer.js"></script> <!-- this includes the js file that has the code for the footer-->
+
+</body>
+<script src="js/script.js"></script>
+
+</html>

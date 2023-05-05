@@ -1,0 +1,108 @@
+/* the body has been set to have a white backgrount and the font family Lora which is a type of serif font */
+body {
+    background-color: #fff;
+    font-family: 'Lora', serif;
+}
+
+/* this has the flex display with direction set to column, it centers the elements inside vertically and horizonatlly */
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* the name element is related with the cars name in the product page. gives a margin of 20 px, font size 3rem the font family of Karla and a greyish color. */
+.name {
+    margin-top: 20px;
+    font-size: 3rem;
+    font-family: 'Karla', serif;
+    color: #292d33;
+}
+
+/* this is the styling for rental details. it a font-size of 2 rem, font-family of 'Karla', color of #292d33, and margin-top of 10 pixels */
+.name2 {
+    font-size: 2rem;
+    font-family: 'Karla', serif;
+    color: #292d33;
+    margin-top: 10px;
+}
+
+/* the next stylin is related with the description section of the page. It styles the heading.it has a font-size of 1.5 rem, font-family of 'Karla', color of #292d33, font-weight of bold, margin-top of 30 pixels, and margin-left of 30 pixels. */
+.des {
+    font-family: 'Karla', serif;
+    color: #292d33;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+/* this is the paragraph styling under the description heading. */
+.product-short-des {
+    color: #292d33;
+    margin: 30px;
+    font-size: 1.2rem;
+}
+
+/* under is the styling of the form: the start and end date of the rental period and the price */
+/* elements in will have a top margin of 20px */
+form {
+    margin-top: 20px;
+}
+
+/* label elements have a color of #292d33 and font-size of 1.2 rem */
+label {
+    color: #292d33;
+    font-size: 1.2rem;
+}
+
+/* input elements have a border-color of #292d33, border-radius of 2 pixels, font-size of 1 rem, and color of #292d33 */
+input {
+    border-color: #292d33;
+    border-radius: 2px;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    color: #292d33;
+}
+
+/* buttons have a flax display with a top margin of 20px */
+.buttons {
+    display: flex;
+    margin-top: 20px;
+}
+
+/* rent-btn2 and cancel-btn have a display of block, padding of 10px top and bottom and 20px left and right, no border, the corners have a 5px round, background-color of #ea7441, text color is white, cwhen the cursor hovers it will be pointer, line-height of 1 rem, and font-size of 20 pixels */
+.rent-btn2 {
+    display: block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ea7441;
+    color: #fff;
+    cursor: pointer;
+    line-height: 1rem;
+    font-size: 20px;
+}
+
+.cancel-btn {
+    display: block;
+    padding: 10px 30px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ea7441;
+    color: #fff;
+    cursor: pointer;
+    line-height: 1rem;
+    font-size: 20px;
+}
+
+/* when the user hoovers the buttons the background color of the buttuns will change */
+.rent-btn2:hover {
+    background-color: #ff6d2f;
+}
+
+.cancel-btn:hover {
+    background-color: #ff6d2f;
+}
